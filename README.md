@@ -2,11 +2,11 @@
 
 A PyTorch Geometric implementation of a graph classification model using Deeper GCN architectures, tested on the MUTAG molecular graph dataset.
 
-## 🔍 Overview
+## Overview
 
 This project applies a **Deeper Graph Convolutional Network (GCN)** to perform binary classification on graphs from the MUTAG dataset. It features manual data cleaning, normalization, edge dropout for regularization, and early stopping to prevent overfitting.
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - Initial `GCNConv` layer for feature transformation
 - Multiple `DeepGCNLayer` blocks for deeper learning capacity
@@ -15,7 +15,7 @@ This project applies a **Deeper Graph Convolutional Network (GCN)** to perform b
 
 > Model depth, dropout, and hidden layer sizes are configurable
 
-## 📦 Dependencies
+## Dependencies
 
 Install required packages:
 
